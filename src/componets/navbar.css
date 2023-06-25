@@ -1,0 +1,20 @@
+.navbar nav{
+	display: flex;
+	background: black;
+	
+
+}
+.navbar nav ul{
+	display: flex;
+	gap: 10px;
+margin-left: auto;
+}
+.navbar nav ul li{
+	padding: 10px;
+}
+.navbar nav ul li a{
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
