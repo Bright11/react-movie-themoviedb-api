@@ -9,9 +9,9 @@ function MovieDtails() {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const apikey = "api_key=8cf1ea8253dc60fc82c2d83d42b81a48";
+          const apikey = "api_key=";
           const accessToken =
-            "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4Y2YxZWE4MjUzZGM2MGZjODJjMmQ4M2Q0MmI4MWE0OCIsInN1YiI6IjYzMjBkZDdhYzFmZmJkMDA3ZDI0YTg2MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0tFxq6j5hdN5auHQSX6YtGdotS9dZ1odWIr4fGHAO_o";
+            "";
           const response = await axios
             .get(
               `${moviedetails}lists/${details}?${apikey}`,
